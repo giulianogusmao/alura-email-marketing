@@ -16,6 +16,11 @@
       font-family: sans-serif;
     }
 
+    .link {
+      text-decoration: none;
+      color: #47a138;
+    }
+
     .fs-h1 {
       font-size: 25px;
     }
@@ -24,12 +29,19 @@
       font-size: 15px;
     }
 
-    .link {
-      text-decoration: none;
+    .fs-sm {
+      font-size: 13px;
     }
 
-    .tc-gren {
-      color: green;
+    .fs-xs {
+      font-size: 10px;
+    }
+
+    .nome-cartao {
+      font-size: 12px;
+      color: #ffffff;
+      font-family: sans-serif;
+      background: url("./images/Bg_Nome_Cartao.jpg") repeat-y center;
     }
   </style>
 
@@ -37,8 +49,7 @@
 
 <body>
 
-
-  <table border="1" width="90%" cellpadding="0" cellspacing="0">
+  <table border="1" width="90%" cellpadding="0" cellspacing="0" align="center">
 
     <!-- header -->
     <tr bgcolor="#000000">
@@ -79,20 +90,34 @@
 
     <tr>
       <td align="center">
-        <table border="1" width="200" cellpadding="0" cellspacing="0">
+        <br>
+        <a href="#" class="fs-default tc-gren link">Veja o vídeo ></a> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <a href="#" class="fs-default tc-gren link">Veja a apresentação ></a>
+        <br><br>
+      </td>
+    </tr>
+
+    <!-- cartão -->
+    <tr>
+      <td align="center">
+        <img src="images/Bg_Cartao.jpg" alt="">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" class="nome-cartao">
+        
+        <table border="0" width="217" cellpadding="0" cellspacing="0">
           <tr>
-            <td align="center">
-              <a href="#" class="fs-default tc-gren link">Veja o vídeo ></a>
-            </td>
+            <td><strong>NATAN SOUZA</strong></td>
           </tr>
         </table>
-        <table border="1" width="200" cellpadding="0" cellspacing="0">
-          <tr>
-            <td align="center">
-              <a href="#" class="fs-default tc-gren link">Veja a apresentação ></a>
-            </td>
-          </tr>
-        </table>
+
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="images/Bg_Cartao_Rodape.jpg" alt="">
       </td>
     </tr>
 
